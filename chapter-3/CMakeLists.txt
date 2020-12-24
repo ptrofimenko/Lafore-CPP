@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 3.0)
+
+add_executable(task-1 task-1.cpp)
+target_compile_options(task-1 PUBLIC -std=c++1z)
